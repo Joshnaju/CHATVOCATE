@@ -1,0 +1,61 @@
+/* ChatVocate theme */
+:root {
+  --chatvocate-primary: #172554;
+  --chatvocate-primary-hover: #1e3a8a;
+  --chatvocate-light: #dbeafe;
+}
+
+/* Navbar */
+.app-header {
+  background-color: var(--chatvocate-primary) !important;
+  color: white;
+}
+
+/* Primary buttons */
+.btn-primary {
+  background-color: var(--chatvocate-primary) !important;
+  border-color: var(--chatvocate-primary) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--chatvocate-primary-hover) !important;
+  border-color: var(--chatvocate-primary-hover) !important;
+}
+
+/* Outline buttons */
+.btn-outline-primary {
+  color: var(--chatvocate-primary) !important;
+  border-color: var(--chatvocate-primary) !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: var(--chatvocate-primary) !important;
+  border-color: var(--chatvocate-primary) !important;
+  color: white !important;
+}
+
+/* Headings and icons */
+.text-primary,
+.text-primary-emphasis {
+  color: var(--chatvocate-primary) !important;
+}
+
+.welcome-icon,
+.message-avatar {
+  color: var(--chatvocate-primary);
+  background-color: var(--chatvocate-light);
+}
+
+/* Input focus */
+.form-control:focus {
+  border-color: var(--chatvocate-primary);
+  box-shadow: 0 0 0 0.2rem rgba(23, 37, 84, 0.15);
+}
+
+/* User avatar */
+.user-avatar {
+  background-color: var(--chatvocate-primary) !important;
+  color: white !important;
+}

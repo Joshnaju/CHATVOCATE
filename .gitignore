@@ -1,0 +1,56 @@
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python / Django Backend
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+myvirtualenv/
+.myvirtualenv/
+env/
+
+# ChromaDB vector database
+backend/chroma_db/
+
+# Django generated files
+staticfiles/
+media/
+
+# Database files
+*.sqlite3
+*.db
+
+# =========================
+# React / Vite Frontend
+# =========================
+node_modules/
+dist/
+
+# Environment files
+frontend/.env
+frontend/.env.*
+
+# =========================
+# IDE and Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Operating System
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
